@@ -1,7 +1,5 @@
-import dotenv from 'dotenv';
+// index.js
 import esPrimo from './primeCheck.js';
 
-dotenv.config();
-
-const numero = process.env.NUMERO_PRUEBA;
+const numero = 7;
 console.log(`¿Es el número ${numero} primo? ${esPrimo(numero)}`);
