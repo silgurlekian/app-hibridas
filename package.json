@@ -1,7 +1,7 @@
 {
   "name": "nomad",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es un proyecto de Node.js que verifica si un número es primo. Se utiliza CommonJS para exportar la función y ES Modules para importarla en el archivo principal. También se maneja un archivo `.env` para cargar variables de entorno.",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.5"
-  }
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "keywords": []
 }
